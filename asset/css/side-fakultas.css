@@ -1,0 +1,39 @@
+
+/*------Sidebar------*/
+.fakultas-menu{
+	padding:0px;
+	float:left;
+	font-family:Candara;
+	font-size:10px;
+	width:300px;
+	margin-left:1px;
+	padding:5px 10px 10px 10px;
+	margin-top:1px;
+	-moz-box-shadow:0 0 2px #bbb;
+	-webkit-box-shadow:0 0 2px #bbb;
+	box-shadow:0 0 2px #bbb;
+	border-radius:4px;
+	height:347px;
+}
+.fakultas-menu a li {
+	padding:5px 0px 5px 0px;
+	background-image:url(../img/ico-menu.png);
+	background-repeat:no-repeat;
+	background-position:1px 11px;
+	padding-left:25px;
+	font-size:14px;
+	font-weight:normal;
+	color:#000;
+}
+
+.fakultas-menu a:hover li {
+	background-image:url(../img/ico-hover.png);
+	background-repeat:no-repeat;
+	background-position:1px 11px;
+	font-weight:normal;
+}
+
+
+.fakultas-menu h2 {
+	padding:10px 0;
+}

@@ -1,0 +1,31 @@
+
+	a.edit-btn{
+		background:url('images/pencil-blue.png') no-repeat;
+		width:18px;
+		display:inline-block;
+		-webkit-transition: margin 0.5s ease-out; 
+		-moz-transition: margin 0.5s ease-out; 
+		-o-transition: margin 0.5s ease-out;
+		margin:2px;
+	}
+	
+	a.edit-btn:hover {
+		moz-box-shadow: 0 0 5px #fff;
+		-webkit-box-shadow: 0 0 5px #fff;
+		box-shadow: 0 0 5px #fff;
+    }
+	a.delete-btn{
+		background:url('images/delete-red.png') no-repeat;
+		width:18px;
+		display:inline-block;
+		-webkit-transition: margin 0.5s ease-out; 
+		-moz-transition: margin 0.5s ease-out; 
+		-o-transition: margin 0.5s ease-out;
+		margin:2px;
+	}
+	
+	a.delete-btn:hover {
+		moz-box-shadow: 0 0 5px #fff;
+		-webkit-box-shadow: 0 0 5px #fff;
+		box-shadow: 0 0 5px #fff;
+    }
