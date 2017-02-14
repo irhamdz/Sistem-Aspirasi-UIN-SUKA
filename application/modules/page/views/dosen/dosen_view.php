@@ -2,8 +2,7 @@
 	$arr_ad = array( 0 => 'Semua', 1 => 'Dosen Dalam Program Studi', 2 => 'Dosen Luar Program Studi');
 	$arr_jd = array( 0 => 'Semua', 1 => 'Dosen Tetap PNS', 2 => 'Dosen Luar Biasa');
 	$arr_sd = array( 0 => 'Semua', 1 => 'Aktif Mengajar', 2 => 'Tidak Aktif Mengajar');			
-?><div id="content-center">
-	
+?>	
 	<div class="article-title">Dosen & Matakuliah</div>
 	<br>
 	<div class="clear10"></div>
@@ -149,7 +148,6 @@
 		<p>Data tidak ditemukan. </p>
 	<?php endif ?>
 	<?php endif ?>
-</div>
 <style>
 .dosen-nama{
 	font-weight:bold;

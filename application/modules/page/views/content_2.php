@@ -1,12 +1,15 @@
-<div id="app_content">
-	<?php echo $this->breadcrumb->output(); ?>
+<div id="app_content">	
 	<div class="clear10"></div>
 	<div class="app-row">
 		<div class="col-med-3">
 			<?php $this->load->view('page/left_side');?>
 		</div>
 		<div class="col-med-9">
-			<?php $this->load->view($content);?>
+			<div id="content-center">
+				<?php echo $this->breadcrumb->output(); ?>
+				<br>
+				<?php $this->load->view($content);?>
+			</div>
 		</div>
 		
 	</div>
