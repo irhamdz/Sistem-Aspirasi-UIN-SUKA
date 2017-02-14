@@ -1,0 +1,38 @@
+.tabelpesertaborder {
+	border:0.0001px solid #000;
+	padding:3px;
+	font-size: 0.7em;
+	height:170px; 
+	margin-bottom:2px;
+}
+
+.tabelpesertaborder_cover {
+	border-top:0.0001px solid #000;
+	border-bottom:0.0001px solid #000;
+	padding:3px;
+	font-size: 0.7em;
+	height:170px; 
+	margin-bottom:2px;
+}
+.none{
+	border:none !important;
+	padding:0px;
+	font-size: 0.7em;
+	height:170px; 
+	margin-bottom:2px;
+}
+#coverprint {
+	font:bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#coverprint .big1 {
+	font-weight:bold;
+	font-size:28px;
+}
+#coverprint .big2 {
+	font-weight:bold;
+	font-size:20px;
+}
+#coverprint .big3 {
+	font-weight:bold;
+	font-size:15px;
+}

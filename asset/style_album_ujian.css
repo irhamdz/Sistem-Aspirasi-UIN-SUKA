@@ -1,0 +1,366 @@
+body {
+	margin:0px;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	line-height:15px;
+}
+#header {
+	margin-top:0px;
+	padding:2px;
+	height:40px; 
+	display:block;
+/*	background:url(images/headerbg.png) repeat-x;*/
+	background:#066;
+	background:#132626;
+}
+#header h2 {
+	margin:2px 10px;
+	padding-top:8px;
+	font:bold 18px Georgia, "Times New Roman", Times, serif;
+	color:#FFFFFF;
+}
+#header h3 {
+	margin:2px 10px;
+	padding-top:2px;
+	font:bold 20px "Trebuchet MS";
+	color:#FFFFFF;
+}
+#session {
+	font:10px Verdana, Geneva, sans-serif;
+	padding:5px 12px;
+	background:#006659;
+	background:url(images/bgsession.jpg) repeat-x; 
+	border-top:1px solid #CCC;
+	color:#FFF;
+/*	color:#B3D4FF; */
+/*	width:250px;
+	height:49px; 
+	padding-top:5px;
+	padding-left:45px;
+	*/
+}
+#session a {
+	font-weight:bold;
+	color:#ccc;
+	text-decoration:none;
+}
+#session a:hover {
+	color:#fff;
+}
+.error {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	padding:5px 10px;
+	border:1px solid #FF0000;
+	background:#ffefef;
+	color:#FF0000;
+}
+.multierror {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	padding:5px 10px;
+	border:1px solid #FF0000;
+	background:#ffefef;
+	color:#FF0000;
+	width:400px;
+	text-align:left;
+}
+.multierror ul {
+	padding:0px 20px;
+}
+
+.sukses {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	padding:5px 10px;
+	border:1px solid #0000FF;
+	background:#efefff;
+	color:#0000FF;
+}
+.error ul {
+	list-style:none;
+	padding:0px;
+	margin:2px;
+}
+#content {
+	padding:0 10px;
+}
+#content h2 {
+	font:bold 16px Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+}
+.tr0 {
+	background:#fff;
+	color:#333;
+}
+.tr1 {
+	background:#EFEFEF;
+	color:#333;
+}
+.tr0 a {
+	font:11px Verdana, Geneva, sans-serif;
+	color:#366;
+	text-decoration:none;
+}
+.tr0 a:hover {
+	color:#396;
+}
+.tr1 a {
+	font:11px Verdana, Geneva, sans-serif;
+	color:#366;
+	text-decoration:none;
+}
+.tr1 a:hover {
+	color:#396;
+}
+.trd {
+	color:#FFF;
+	background:#069f8b;
+}
+.trp {
+	color:#FFF;
+	background:#363;
+}
+.trd a {
+	color:#eee;
+}
+.trd a:hover {
+	color:#FFF;
+}
+.tabelview {
+	font:11px Verdana, Geneva, sans-serif;
+	border:1px solid #333;
+	padding:3px;
+}
+.tabelview th {
+	font:bold 11px Verdana, Geneva, sans-serif;
+	background:url(images/bginput.jpg);
+	color:#FFF;
+	height:20px;
+}
+/*
+.tabelview a {
+	font:bold 11px Verdana, Geneva, sans-serif;
+	color:#366;
+	text-decoration:none;
+}
+.tabelview a:hover {
+	color:#396;
+}
+*/
+.bordergrey {
+	border:3px solid #066;
+}
+.tabelconfirm {
+	font:11px Verdana, Geneva, sans-serif;
+	background:url(images/po2.png);
+	border:1px solid #F60;
+	color:#C30;
+}
+.tabelinput {
+	font:11px Verdana, Geneva, sans-serif;
+	background:url(images/po2.png);
+}
+.tabelinput input[type=text] {
+	font:11px Verdana, Geneva, sans-serif;
+	text-transform:uppercase;
+	width:95%;
+}
+.tabelinput select {
+	font:11px Verdana, Geneva, sans-serif;
+	text-transform:uppercase;
+	width:95%;
+}
+.tabelinput select option {
+	padding:1px 0;
+}
+.tabelinput input[type=submit] {
+	font:12px Verdana, Geneva, sans-serif;
+	text-transform:uppercase;
+	
+}
+.edit {
+	color:#666;
+}
+#headerprint {
+	padding:3px;
+	height:88px;
+	display:block;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border:1px solid #000;
+	margin-bottom:5px;
+}
+#headerprint .headerjudul {
+	font:bold 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#headerprint .headerlabel {
+	font:bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#headerprint .headercontent {
+	font:bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#print .pasfoto {
+	width:3.8cm;
+}
+#print {
+	margin-left:50px;
+}
+#print h3 {
+	font:bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#break {
+	page-break-after:always;
+}
+#coverprint {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#coverprint .big1 {
+	font-weight:bold;
+	font-size:28px;
+}
+#coverprint .big2 {
+	font-weight:bold;
+	font-size:20px;
+}
+#coverprint .big3 {
+	font-weight:bold;
+	font-size:15px;
+}
+#coverprint .sektorlokasiruang {
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	padding:10px 0 10px 0;
+}
+.tabelpesertaborder {
+	border:1px solid #000;
+	padding:3px;
+	font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	height:170px; 
+	margin-bottom:2px;
+}
+.tabelpesertaborder .masukdikit {
+	padding-left:20px;
+}
+.tabelpesertaborder .judul {
+	font:bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.tabelpesertaborder .bigger {
+	font:bold 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.tabelpesertabg {
+/*	background:url(images/pp2.png); */
+}
+.tabelttd {
+	background:#000;
+	font:10px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.tabelttd td.ttd {
+/*	background:url(images/pp2.png); 
+	height:68px; */
+	height:73px; /* ini dipakai apabila ada h1 w1 h2 w2 */
+	text-align:center;
+	vertical-align:bottom;
+}
+.tabelttd td {
+/*	background:url(images/pp2.png);*/
+	background:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+.tabelttd th {
+/*	background:url(images/pp2.png);*/
+	background:#FFF;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.tabelcetak {
+	background:#000;
+	font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+.tabelcetak td {
+	background:#FFF;
+}
+.tabelcetak td.bigger {
+	font:18px bold "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.tabelcetak td.pad10left {
+	padding-left:5px;
+}
+.tabelcetak th {
+	background:#FFF;
+	font:14px bold "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.tableinfo {
+	font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.pesan2 {
+	margin:10px;
+	text-align:center
+}
+.infowhisper {
+	font:11px Verdana, Geneva, sans-serif;
+}
+#infohal {
+	font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:right;
+}
+#footer2 {
+	height:20px;
+}
+.ip1 {
+	background:#00F;
+	color:#FFF;
+}
+.ip2 {
+	background:#0F0;
+	color:#FFF;
+}
+.ip3 {
+	background:#600;
+	color:#FFF;
+}
+.kodesoal {
+	padding-left:5px;
+	text-align:left;
+}
+.perhatianred {
+	margin:2px;
+	padding:10px 15px;
+	color:#F00;
+	border:1px solid #F00;
+	font:11px Verdana, Geneva, sans-serif;
+	background:#fee;
+}
+.perhatianblue {
+	margin:2px;
+	padding:10px 15px;
+	color:#00F;
+	border:1px solid #00F;
+	font:11px Verdana, Geneva, sans-serif;
+	background:#eef;
+}
+.perhatiannormal {
+	margin:2px;
+	padding:10px 15px;
+	color:#000;
+	font:bold 11px Verdana, Geneva, sans-serif;
+}
+.labelx {
+	text-align:right;
+	padding:2px 5px;
+	font:bold 11px Verdana, Arial, Helvetica, sans-serif;
+}
+.kurang70 {
+	color:#FFFFFF;
+	background:#FF0000;
+}
+.lebih70 {
+	color:#FFFFFF;
+	background:#0000FF;
+}
+.kanan12 {
+	padding-right:12px;
+}
+hr {
+	background:#FFF;
+	border:#FFF;
+	size:1px;
+	page-break-after:always;
+}

@@ -1,0 +1,13 @@
+mas Surahmat:
+ini beberapa API yang bisa diset terkait dengan pengisian data profile di admisi
+----------------------------
+[1] http://service.uin-suka.ac.id/servadmisi/praregistrasi/get_jadwal_pengisian_daftar
+---------------------
+method = GET
+tanpa parameter
+--> menampilkan daftar jalur yang ada dan tanggalnya
+[2] http://service.uin-suka.ac.id/servadmisi/praregistrasi/post_jadwal_pengisian
+-------
+method = POST
+parameter = kd_jalur, tgl_mulai,tgl_akhir,keterangan
+format tanggal = dd/mm/yyyy hh24:mi:ss
