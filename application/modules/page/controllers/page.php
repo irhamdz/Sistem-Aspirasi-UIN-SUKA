@@ -47,6 +47,30 @@ class page extends CI_Controller {
 		$this->load->view('page/home');
 		$this->load->view('page/footer');
 	}
+
+	function daftar()
+	{
+		$this->breadcrumb->append_crumb('Beranda', base_url());
+		$this->breadcrumb->append_crumb('Daftar', '/');
+
+		$data['content']="page/daftar/daftar_view";
+
+		$this->load->view('page/header',$data);
+		$this->load->view('page/content_daftar');
+		$this->load->view('page/footer');
+	}
+
+	function history()
+	{
+		$this->breadcrumb->append_crumb('Beranda', base_url());
+		$this->breadcrumb->append_crumb('History Aspirasi', '/');
+
+		$data['content']="page/history/history_view";
+
+		$this->load->view('page/header',$data);
+		$this->load->view('page/content_2');
+		$this->load->view('page/footer');
+	}
 	
 	
 	function dosen($param="",$value=""){

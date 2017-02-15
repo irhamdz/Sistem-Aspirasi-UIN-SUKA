@@ -43,6 +43,7 @@ $route['404_override'] = '';
 $route['logout'] = 'admin/logout';
 include_once('application/modules/sertifikasi/it_route.php');
 include_once('application/modules/02_cmahasiswa/route02.php');
+include_once('application/modules/page/page_route.php');
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
