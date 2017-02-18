@@ -8,7 +8,7 @@
 			echo"<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>";
 			echo" <meta content='".$title."' name='description'/>";
 		}else{
-			echo"<title>Sistem Aspirasi</title>";
+			echo"<title>Sistem Aspirasi UIN Sunan Kalijaga</title>";
 			echo" <meta content='UIN Sunan Kalijaga' name='description'/>";
 		}
 		?>

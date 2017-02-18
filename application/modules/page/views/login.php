@@ -1,7 +1,7 @@
 <h2>Login</h2>
 <br>
 <div class="login-form">
-	<form method="post" action="<?php echo site_url('admin/validate')?>">		
+	<form method="post" action="<?php echo site_url(/*'admin/validate'*/'/user')?>">		
 		<div class="form-group">
 			<input type="text" name="username" id="username" class="form-control" name="logu1" placeholder="Nama / Email">
 		</div>
