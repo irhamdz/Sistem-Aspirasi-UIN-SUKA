@@ -95,54 +95,6 @@
 								
 						
 		
-		<ul id="menu">
-			<?php /* 
-				$menu=$this->webserv->post('system/menu',array('ID_MENU' => '0'));
-				$i=0;
-				foreach($menu as $mm){
-					++$i;
-					$align="";
-					if($i==4){
-						$align="align_right";
-					}
-						$sm=array();
-							$sm=$this->webserv->post('system/menu',array('ID_MENU' => $mm->ID_MENU));
-							$count=count($sm);
-							if($count>0){
-								echo"<li><a href='".site_url($mm->URL)."' class='drop'>".$mm->JUDUL."</a>"; 
-								echo"<div class='dropdown_2columns ".$align."'>";	
-								if($count<8){
-								echo"<div class='col_2'>";
-									echo" <ul>";
-									$j=0;
-									foreach($sm as $sm){
-										echo"<li><a href='".site_url($sm->URL)."'>".$sm->JUDUL."</a></li>";
-									}
-									echo"</ul>";
-								}else{
-									echo"<div class='col_1'>";
-									echo" <ul>";
-									$j=0;
-									foreach($sm as $sm){
-									++$j;
-										echo"<li><a href='".site_url($sm->URL)."'>".$sm->JUDUL."</a></li>";
-										if($j%($count/2)==0){
-											echo"</ul></div><div class='col_1'><ul>";
-										}
-									}
-									echo"</ul>";
-								}
-								echo"</div>";
-								echo"</li>";
-							}else{
-								echo"<li><a href='".site_url($mm->URL)."' class='drop'>".$mm->JUDUL."</a></li>";    
-							} 
-					}*/
-			?>  					
-				
-
-	  <?php /*} */?>
-			</ul>
 								</div>	
 						</div>
 					</div>
@@ -151,5 +103,6 @@
 		
 				
 				</div>
+			</div>
 			</div>
 					

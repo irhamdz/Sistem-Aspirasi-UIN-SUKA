@@ -63,7 +63,7 @@ class page extends CI_Controller {
 	function history()
 	{
 		$this->breadcrumb->append_crumb('Beranda', base_url());
-		$this->breadcrumb->append_crumb('History Aspirasi', '/');
+		$this->breadcrumb->append_crumb('Cek Aspirasi', '/');
 
 		$data['content']="page/history/history_view";
 

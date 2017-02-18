@@ -31,7 +31,7 @@
 								<a style="margin-left:6px; display:inline;" title="Foursquare" href="http://foursquare.com/uinsk" target="_blank"><img src="http://static.uin-suka.ac.id/images/icons/foursquare.png" width="30" height="30"/></a>
 							</div>
 						</div>
-					</div>	
+					</div>
 					<div class="clear20"></div><?php
 		 $data=file_get_contents("http://www.uin-suka.ac.id/index.php/service/footer2");
 		 $data=json_decode($data);
